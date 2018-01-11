@@ -1,3 +1,44 @@
-body{
+html, body {
+    height: 100%;
+    margin: 0;
     background: rgb(212, 208, 208);
+    color: #666;
+  }
+.header{
+    background: #fff;
+    height: auto;
+    overflow: auto;
+}
+h1{
+    font-size: 20px;
+    background: #4aaaa5;
+    color: #fff;
+    width: 300px;
+    float: left;
+    margin: 0px 0px 0px 100px;
+    padding: 20px;
+    text-align: center;
+}
+.nav{
+    float: left;
+    width: 300px;
+    font-size: 20px;
+    margin: 0px 100px 0px 500px;
+    text-align: center;
+    padding: 20px;
+}
+.footer{
+    background: #666;
+    color: #fff;
+    text-align: center;
+    padding:15px;
+    font-size:20px;
+    border-top: solid 5px #4aaaa5;
+}
+.main{
+    clear:both;
+}
+.container{
+    height:100%;
+    margin:0 auto -50px;
 }
