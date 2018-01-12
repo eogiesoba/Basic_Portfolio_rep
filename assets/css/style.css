@@ -82,7 +82,7 @@ h3{
     float:left;
     border-radius: 5px;
 }
-.icon {
+a {
     margin: 10px;
 }
 .icon:hover {
